@@ -1,0 +1,23 @@
+test_calendar (test_bot.Tests.test_calendar) ... ok
+test_delta_and_rounding (test_bot.Tests.test_delta_and_rounding) ... ok
+test_gamma (test_bot.Tests.test_gamma) ... PAPER SENSEX closing: 14:30 gamma rule
+ok
+test_kill_switch (test_bot.Tests.test_kill_switch) ... PAPER SENSEX closing: kill switch
+ok
+test_recover_active (test_bot.Tests.test_recover_active) ... ok
+test_recover_incomplete (test_bot.Tests.test_recover_incomplete) ... PAPER SENSEX closing: restart recovery
+ok
+test_stop_to_cost_then_exit (test_bot.Tests.test_stop_to_cost_then_exit) ... PAPER SENSEX closing: both stops filled
+ok
+test_unfilled_stop_gap (test_bot.Tests.test_unfilled_stop_gap) ... PAPER SENSEX closing: stop partially filled, rejected, or triggered without fill
+ok
+test_unknown_order_no_duplicate (test_bot.Tests.test_unknown_order_no_duplicate) ... ok
+test_consumer_token_only (test_paper_only.PaperOnlyTests.test_consumer_token_only) ... ok
+test_live_flag_rejected_even_with_old_opt_in (test_paper_only.PaperOnlyTests.test_live_flag_rejected_even_with_old_opt_in) ... ok
+test_telegram_failure_is_nonfatal (test_paper_only.PaperOnlyTests.test_telegram_failure_is_nonfatal) ... ok
+test_telegram_opt_in_and_dedup (test_paper_only.PaperOnlyTests.test_telegram_opt_in_and_dedup) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.684s
+
+OK
